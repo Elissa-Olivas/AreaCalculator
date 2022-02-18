@@ -10,7 +10,8 @@ public class Main {
         //rectangleShape.setHeight(40);
         //rectangleShape.setWidth(20);
 
-        String s = "The rectangle";
-        rectangleShape.calculateArea("The rectangle");
+
+        rectangleShape.calculateArea();
+        squareShape.calculateArea();
     }
 }

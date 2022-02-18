@@ -14,11 +14,17 @@ public class Calculator {
     }
 
     //method to calculate area of a certain shape
-    public void calculateArea(String name) {
-        System.out.println(name + " is " + width + " wide and " + height +
+    public void calculateArea() {
+        System.out.println(shape + " is " + width + " wide and " + height +
                 " tall and the area is " + (width * height) + ".");
     }
-
+    //method for setting shape
+    public void setShape(String shape) {
+        this.shape = shape;
+    }
+    public String getShape() {
+        return shape;
+    }
     //method for setting width
     public void setWidth(double widthOfShape) {
         width = widthOfShape;
